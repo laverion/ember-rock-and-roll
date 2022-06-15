@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "target": "es2018",
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "expel/tests/*": ["./tests/*"],
+      "expel/config/*": ["./config/*"],
+      "expel/mirage/*": ["./mirage/*"],
+      "expel/*": ["./app/*"]
+    }
+  },
+  "exclude": ["node_modules", "tmp", "vendor", ".git", "dist"]
+}
